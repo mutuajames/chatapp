@@ -21,7 +21,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     #Mine
     'daphne',
-    'app',
+    'app1',
     #Other
     'django.contrib.admin',
     'django.contrib.auth',
@@ -129,3 +129,5 @@ CHANNEL_LAYERS = {
         },
     },
 }
+
+STATIC_URL='/static/'
